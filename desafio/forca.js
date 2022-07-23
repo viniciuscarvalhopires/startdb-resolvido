@@ -17,6 +17,7 @@ class Forca {
 
     if (letra.length == 1) {
       for (var j = 0; j < this.palavra.length; j++) {
+        this.hasLetter = true
         if (this.palavra.includes(letra)) {
           if (letra == this.palavra[j]) {
             if (this.descobrir[j] != letra) {
