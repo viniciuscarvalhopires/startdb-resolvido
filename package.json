@@ -1,0 +1,14 @@
+{
+  "name": "startdb-resolvido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio.js",
+  "scripts": {
+    "start": "node desafio/desafio.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
